@@ -16,7 +16,7 @@ if(idCardNO.Length != 18)
     goto begin;
 }
 
-bool check = new IdCardNOCheckTool().CheckIdCard(idCardNO);
+bool check = new IdCardCheckTool().CheckIdCard(idCardNO);
 
 if(check)
     Console.WriteLine("校验成功");
