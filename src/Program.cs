@@ -16,9 +16,7 @@ if(idCardNO.Length != 18)
     goto begin;
 }
 
-
-CheckCodeTool cct = new CheckCodeTool();
-bool check = new CheckCodeTool().CheckIdCard(idCardNO);
+bool check = new IdCardNOCheckTool().CheckIdCard(idCardNO);
 
 if(check)
     Console.WriteLine("校验成功");

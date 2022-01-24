@@ -1,6 +1,6 @@
 namespace CSharpIdCardCheck
 {
-    public class CheckCodeTool
+    public class IdCardNOCheckTool
     {
         public static int CharToInt(char c)
         {
